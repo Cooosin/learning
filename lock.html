@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>首页</title>
+</head>
+<body>
+<style>
+    @font-face {
+        font-family: "clockicons";
+        src: url(https://miniso-platform-cdn.miniso.com/activity/qisessu9/clockicons.woff2);
+    }
+    @font-face {
+        font-family: "opensans-bold";
+        src: url(https://miniso-platform-cdn.miniso.com/activity/qisessu9/opensans-bold.woff2);
+    }
+    @font-face {
+        font-family: "opensans-light";
+        src: url(https://miniso-platform-cdn.miniso.com/activity/qisessu9/opensans-light.woff2);
+    }
+    @font-face {
+        font-family: "opensans";
+        src: url(https://miniso-platform-cdn.miniso.com/activity/qisessu9/opensans.woff2);
+    }
+    @font-face {
+        font-family: "vpssolah";
+        src: url(https://miniso-platform-cdn.miniso.com/activity/qisessu9/vpssolah.woff2);
+    }
+
+    .colored {
+        color: #555 !important;
+    }
+
+    .text-nowrap {
+        white-space: nowrap;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .font-digit-text {
+        font-family: vpssolah, sans-serif;
+        letter-spacing: -0.1em;
+    }
+
+    .wrap {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .time {
+        width: 485px;
+        height: 128px;
+    }
+    .date {
+        font-size: 32px;
+        width: 618px;
+        text-align: center;
+        margin-top: 35px;
+    }
+    body {
+        margin: 0px;;
+    }
+</style>
+<div id="app">
+    <div class="wrap">
+        <div id="pnl-time" class="time">
+              <span
+                      id="lbl-time"
+                      class="colored digit text-nowrap font-digit"
+                      style="font-size: 128px; font-family: clockicons, sans-serif">{{time}}</span>
+        </div>
+        <div
+                id="lbl-date"
+                class="date colored digit-text text-center font-digit-text" >{{date}}
+        </div>
+        <div>
+            <h2 id="soup" style="color: #4AAE71;">{{du}}</h2>
+        </div>
+    </div>
+</div>
+
+<!-- 引入 Vue.js 和 Element-UI -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<!-- 自定义 JavaScript -->
+<script th:inline="javascript">
+    new Vue({
+        el: '#app',
+        
+       
+    });
+</script>
+</body>
+</html>

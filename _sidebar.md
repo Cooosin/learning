@@ -6,25 +6,25 @@
   - [集合](./content/java/集合.md)
   
   * [多线程与并发](./content/java/多线程与并发.md)
+  * [JVM相关]
+  * [Java 21]
   
 * Srping
   * [控制反转（IOC）](./content/Spring/控制反转（IOC）.md)
   * [面向切面编程（AOP）](./content/Spring/面向切面编程（AOP）.md)
+  * [SpringMVC]
   
 * 数据库
-  * [索引](/ProjectDocs/Docsify部署教程.md)
+  * [MYSQL]
+  * [Redis]
   
-* 设计模式
-    * [工厂]
-    * [责任链]
-    * [策略]
-    * [模板]
-    
 * 计算机网络
-  * [Https](/ProjectDocs/Docsify部署教程.md)
+  * [HTTP]
+  * [TCP]
   
 * Devops
-  * [Docker](/ProjectDocs/Docsify部署教程.md)
+  * [Docker]
+  * [K8s]
   
 * 项目
     * [亿级数据计算处理]
@@ -35,6 +35,18 @@
     * [分布式服务下发数据并发问题优化]
     * [Redison在阿里云redis集群下删锁失败优化]
     * [电商异常价格监控方案]
+    
+* 设计模式
+    
+    * [工厂]
+    * [责任链]
+    * [策略]
+    * [模板]
+    * [组合]
+    * [装饰器]
+    * [代理]
+    * [迭代器]
+    * [观察者]
     
 * 算法
   * LeetCode
