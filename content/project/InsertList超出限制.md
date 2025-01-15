@@ -49,8 +49,8 @@
 - 解决方法很简单，就是根据单分批的基础上，插入明细的数据也进行分批，每次插入2000条就可以了
 
 ```java
-            Lists.partition(dto, pushSize)
-                    .forEach(e -> xxxmapper.insertList(e));
+Lists.partition(dto, pushSize)
+.forEach(e -> xxxmapper.insertList(e));
 ```
 
 
