@@ -35,7 +35,8 @@
     * [分布式服务下发数据并发问题优化]
     * [Redison在阿里云redis集群下删锁失败优化]
     * [电商异常价格监控方案]
-    * [InertList超出字段限制](./content/project/InsertList超出限制.md)
+    * [InsertList超出占位符个数限制抛出异常错误](./content/project/InsertList超出占位符个数限制抛出异常错误.md)
+    * [海量数据在高并发场景中精准下发](./content/project/海量数据在高并发场景中精准下发.md)
     
 * 设计模式
   
