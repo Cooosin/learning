@@ -22,7 +22,7 @@
 
 - 拿到入参在本地去进行调试，发现是在预编译sql的时候报了越界
 
-![image-20250115152923505](/Users/coosin/Library/Application Support/typora-user-images/image-20250115152923505.png)
+![image-20250115152923505](../../images/image-20250115152923505.png)
 
 - **这里有一个奇怪的问题：为什么paramCount是11364？**，这个数字是从哪来的，他代表着什么，于是带着好奇心去继续寻找答案
 
