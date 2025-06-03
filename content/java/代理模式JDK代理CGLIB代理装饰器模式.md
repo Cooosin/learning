@@ -13,11 +13,3 @@ Parameters: CN(String), 11010704(String), JS_D(String), JP_D(String), JD05(Strin
 
 
 
-
-
-- 报表筛选展示解
-- 原单查询接口过滤不可解的单
-- 原单查询接口 查询细类时过滤spu
-- 单据商品报表过滤禁采为空的情况
-- hashmap扩容问题，一次性塞入40w数据，分组问题
-- 
