@@ -8,9 +8,10 @@
     * [亿级数据报表实时查询分页方案设计](./content/project/亿级数据报表实时查询分页方案设计.md)
     * [亿级数据查询Excel流式导出](./content/project/亿级数据查询Excel流式导出.md)
     * [基于动态规则的复杂查询构建实践 ](./content/project/基于动态规则的复杂查询构建实践.md)
-    * [千万级存量历史数据业务逻辑计算优化]
-
+    
 * 学习记录
+
+    - 基于SpringAi和langchain4j构造一个旅游行程智能体
 
 * 踩坑优化记录
 
@@ -18,4 +19,8 @@
     - [记录一次线上的OOM问题](./content/project/记录一次线上的OOM问题.md)
     - [Redison在阿里云redis集群下删锁失败优化](./content/project/Redison在阿里云redis集群下删锁失败优化.md)
 
+    
+    
+    
+    
     
