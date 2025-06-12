@@ -11,7 +11,7 @@
     
 * 学习记录
 
-    - 基于SpringAi和langchain4j构造一个旅游行程智能体
+    - [基于SpringAi和langchain4j构造一个旅游行程智能体 ](./content/record/基于SpringAi和langchain4j构造一个旅游行程智能体.md)
 
 * 踩坑优化记录
 
